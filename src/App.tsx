@@ -21,6 +21,10 @@ function App() {
     {
       firstName: 'Harshita',
       lastName: 'Bansal'
+    },
+    {
+      firstName: "Sushma",
+      lastName: "Bansal"
     }
   ]
 
