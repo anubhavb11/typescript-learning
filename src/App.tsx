@@ -15,7 +15,7 @@ function App() {
       lastName: 'Bansal'
     },
     {
-      firstName: 'Anubhav',
+      firstName: 'Manish',
       lastName: 'Bansal'
     },
     {
