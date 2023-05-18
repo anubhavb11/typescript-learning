@@ -1,11 +1,14 @@
 type GreetProps = {
     name: string,
-    messageCount: number 
+    // we can make a prop optional
+    messageCount?: number 
 }
 
 
 function Greet(props: GreetProps) {
-  return <div>{props.name} you have {props.messageCount} unread messages</div>;
+  // default value if nothing is passed
+  const {messageCount = 0} = props
+  return <div>{props.name} you have {messageCount} unread messages</div>;
 }
 
 export default Greet;
